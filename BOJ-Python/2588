@@ -1,0 +1,12 @@
+m = int(input())
+n = input()
+n_list = list(n)
+
+a=int(n_list[2])*m
+b=int(n_list[1])*m
+c=int(n_list[0])*m
+
+print(a)
+print(b)
+print(c)
+print(a+b*10+c*100)
